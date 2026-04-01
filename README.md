@@ -1,4 +1,4 @@
-# 📚 PlotMatch
+# 📚 Next-Book-to-Read
 
 > Find your next book based on what you *loved* about the last one — powered by semantic plot analysis, not genre tags.
 
