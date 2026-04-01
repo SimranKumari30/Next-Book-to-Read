@@ -102,16 +102,16 @@ plotmatch/
 └── README.md
 ```
 
-## API Usage & Cost
+## APIs Used
 
-- **Google Books API**: Free, no key required for basic queries
-- **Open Library API**: Free, no key required
-- **Reddit API**: Free public JSON endpoint, no key required
-- **Anthropic API**: ~$0.01-0.03 per search (2 Claude calls per query)
+- **Google Books API**
+- **Open Library API**
+- **Reddit API**
+- **Anthropic API**
 
 ## Future Ideas
 
-- Add vector embeddings (e.g. via `sentence-transformers`) for pure semantic search across a pre-built book corpus
+- Add vector embeddings (e.g. via `sentence-transformers`) for pure semantic search across a pre-built book corpus like Project Gutenberg
 - Integrate Goodreads data via scraping or unofficial API
-- Add user reading history to personalize recommendations over time
-- Export reading list to Goodreads or Notion
+- Add user reading history and ratings to personalize recommendations over time
+- Export recommendations to reading list on Goodreads or Notion
